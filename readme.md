@@ -34,3 +34,41 @@ Otros:
 Explicar que son los selectores, y mencionar con ejemplos y definicion. Selectores Simpels y Selectores Compuestos
 Subirlo a git hub pages. y pasar en enlace del repo
 readme.md generar un resumen de lo trabajado
+
+
+
+
+## BOX MODEL
+
+
+1. Todos los elementos en la web son rectangulares
+2. width = ancho, height = alto
+3. display block
+
+
+Colores de una caja
+
+Interno
+
+Azul - content box
+verde - padding box
+melon - border box
+
+Externo
+naranja - margin box (ya no tiene el background que se aplica a la caja) separa frente a otros elementos
+
+box-sizing: border-box (vuelve que el width y height sean absolutos, el border, padding y contenido van dentro)
+
+existe el margin negativo
+
+Los margenes verticales colapsan, si el elemento superior tiene margin-botton= 2 rem, el elemento superior tiene margin-top=2rem, colapsan, no se suman, en caso uno sea mayor que otro, el mayor se respeta.
+
+
+
+    Aplicar conceptos y ejemplo de box model
+
+    Que es box mode, el uso particulara de selector universal, explicar las capas del box model tanto internas como externas com ejemplos. .
+
+    Explicar el shorthand padding , y margin.
+
+    En margin explicar que es margin negativo, colapsadao de margenes verticales y el centrado perfecto horizontal.

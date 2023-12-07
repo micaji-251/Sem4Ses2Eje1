@@ -1,6 +1,7 @@
 html{
     font-size: 16px;
     background-color: #011627;
+    box-sizing: border-box;
 }
 header nav{
     background-color: #41EAD4;
@@ -36,4 +37,34 @@ h2 >a{
     background-color: #FDFFFC;
     color: black;
 
+}
+
+ol p{
+    font-style: italic;
+}
+
+.caja{
+    background-color: peru;
+    width: 50px;
+    height: 50px;
+}
+
+.caja1{
+    padding: 20px 10px 5px 3px;
+    margin: 20px 10px;
+}
+
+.caja2{
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}
+
+.caja3{
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(6, 8, 10);
+}
+
+.caja4{
+    margin: 0 auto;
 }

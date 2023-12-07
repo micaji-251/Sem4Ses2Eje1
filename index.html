@@ -15,6 +15,8 @@
         <nav>
             <a href="">selectores simples</a>
             <a href="">selectores compuestos</a>
+            <a href="./boxmodel.html">box model</a>
+
         </nav>
     </header>
     
@@ -74,6 +76,63 @@
                 <li>Selector multiples etiquetas: seleccionar varios elementos a la vez</li>
                 <p>h2,p{
                     color:red}</p>
+            </ol>
+        </article>
+
+
+        <article>
+
+            <h2><a href="">box model </a></h2>
+
+            <ol class="contenido">
+
+                <h3> Partes del box model:</h3>
+                <li>Box content: parte principal que contiene el texto o valores del elemento</li>
+                <li>Box padding: espacio entre el contenido y el borde </li>
+                <li>Box border: limites de la caja</li>
+                <li>Box margin: parte externa, seria el espacio entre los elementos</li>
+                
+            </ol>
+
+            <ol class="contenido">
+
+                <h3>Aplicacion de atributos:</h3>
+
+                <li>Aplicando box sizing: esto vuelve que el width y height sean absolutos, el border, padding y contenido van dentro </li>
+                <p>*{box-sizing: border-box} aplicado a este cuadrado</p>
+                <div class="caja"></div>
+
+                <li>Aplicando padding y margin</li>
+                <p>.caja{padding 20px 10px 5px 3px;
+                    margin 20px 10px;}</p>
+                <div class="caja caja1"></div>
+
+                <li>Colapsando margenes verticales</li>
+                <p>.caja2{margin-top=2rem} .caja1{margin-bottom=4rem}</p>
+                <div class="caja caja1"></div>
+                <div class="caja caja2"></div>
+
+                <li>Margenes negativos</li>
+                <p>.caja2{
+                    margin-top: 3rem;
+                    margin-bottom: -1rem;
+                }
+                
+                .caja3{
+                    margin-left: -2rem;
+                    margin-bottom: 1rem;
+                    background-color: rgb(6, 8, 10);
+                }
+                </p>
+                <div class="caja caja2"></div>
+                <div class="caja caja3"></div>
+
+                <li>Centrado</li>
+                <p>.caja4{
+                    margin: 0 auto;
+                }</p>
+                <div class="caja caja4"></div>
+
             </ol>
         </article>
 
