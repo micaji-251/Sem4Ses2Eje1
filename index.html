@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selectores</h1>
+        <div class="logo">
+            <img  src="./Logo.png" alt="Css + Html">
+        </div>
+        <nav>
+            <a href="">selectores simples</a>
+            <a href="">selectores compuestos</a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2><a href="">selectores simples</a></h2>
+
+            <ol class="contenido">
+                <li>Selector de etiqueta:Para cambiar la forma general de una etiqueta general, por ejemplo
+                    a{} - a siempre genera una linea debajo del texto, si quisiera removerlo en todo el trabajo, se podría quitar.</li>
+                <li>Selector de clase: Para realizar estilos en la web, en la mayoria de casos se recomienda selector de clase, ya que es el valor más bajo que te permite especificidad, en casos especiales se podría usar otro.</li>
+                <p>
+                    .logo{
+                    text-align: center;
+                }
+                </p>
+                <li>Selector de ID: No se recomienda usar para CSS, se prefiere que se usen para la programación con JAVASCRIPT.</li>
+                <p>
+                    #logo{
+                        text-align:center;
+                    }
+                </p>
+                <li>Selector InLine: Solo se debe usar para JavaScript para aplicar estilos. En Javascript se aplica estilos InLine.</li>
+                                
+            </ol>
+
+        </article>
+
+        <article>
+
+            <h2><a href="">selectores compuestos</a></h2>
+
+            <ol class="contenido">
+
+                <li>Selector descendiente: se utilizan para especificar selectores dentro de otro</li>
+                    <p>header h1{
+                        font-size: 3rem;
+                        text-align: center;
+                        background-color: #FDFFFC ;
+                    }</p>
+                <li> Selector hijo directo: solo afectaría al hijo directo del selector inicial</li>
+                    <p>
+                        h2 >a{
+                        text-decoration: none;
+                        background-color: #FDFFFC;
+                        color: black;
+                    }
+                </p>
+                <li>Selector de hermano siguiente o adyacente: +, selecciona a la etiqueta que esta al mismo nivel y en la siguiente linea del hermano</li>
+                <p>h2 + p{
+                    color:red}</p>
+
+                <li>Selector a hermanos siguientes o adyacentes: ~, aplica a todos los hermanos después (no necesita ser inmediato despues), no aplica a nietos.</li>
+                <p>h2 ~p{
+                    color:red}</p>
+
+                <li>Selector multiples etiquetas: seleccionar varios elementos a la vez</li>
+                <p>h2,p{
+                    color:red}</p>
+            </ol>
+        </article>
+
+    </main>
+
+    <footer>
+        Derechos Reservados
+    </footer>
+</body>
+</html>

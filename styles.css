@@ -1,0 +1,39 @@
+html{
+    font-size: 16px;
+    background-color: #011627;
+}
+header nav{
+    background-color: #41EAD4;
+    text-align: center;
+}
+nav a{
+    text-transform: capitalize;
+    
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #FDFFFC ;
+}
+
+.logo{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    padding: 0px;
+    
+}
+
+article .contenido {
+    background-color: #0A81D1;
+}
+
+h2 >a{
+    text-decoration: none;
+    background-color: #FDFFFC;
+    color: black;
+
+}
